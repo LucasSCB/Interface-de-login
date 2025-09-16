@@ -1,0 +1,62 @@
+.register{
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: rgba(255, 255, 255, 0.15);
+    padding: 45px;
+    border-radius: 10px;
+}
+.register h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.register .input-fd{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+    background-color: transparent;
+}
+.input-fd input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+    color: white;
+    padding: 20px 45px;
+}
+.input-fd .icon{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: white;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(59, 59, 59);
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow: none;
+}
+.register .return{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+.register .return a{
+    text-shadow: none;
+    text-decoration: none;
+}
+.register a{
+    color: white;
+    text-decoration: none;
+}
